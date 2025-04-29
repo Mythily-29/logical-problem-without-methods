@@ -14,18 +14,21 @@
 
 //largest
 
-// let arr=[5,10,30,1,22]
-// let temp;
+// let arr=[5,10,10,22,30,30,1,22,22,22]
+// let highest=arr[0];
+// let lowest=arr[0]
 // for(let i=0;i<arr.length;i++){
 //     for(let j=i+1;j<arr.length;j++){
-//         if(arr[i] < arr[j]){
-//             temp=arr[i]
-//             arr[i]=arr[j]
-//             arr[j]=temp
+//         if(arr[i] > arr[j]){
+//             highest=arr[i]
+//         }
+//         else if(highest > arr[i]){
+//             lowest=arr[i]
 //         }
 //     }
 // }
-// console.log(`First Largest : ${arr[0]}  Second Largest : ${arr[1]} `);
+
+// console.log(`First Largest : ${highest}  Second Largest : ${lowest} `);
 
 // reverse
 
@@ -133,7 +136,6 @@
 
 // let count=0
 // let max=0
-// let obj={};
 
 // for(let i=0;i<arr.length;i++){
 //     count=0;
@@ -162,7 +164,7 @@
 // console.log('The count is:',value.length - len -1);
 // }
 
-// decimalCount(748765.201)
+// decimalCount(748765.20)
 
 
 
